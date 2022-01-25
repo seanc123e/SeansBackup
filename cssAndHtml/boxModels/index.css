@@ -1,0 +1,26 @@
+/* Some cool colors & styles for our div elements */
+div {
+    border: 1px solid gray;
+    background-color: lightgray;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  /* Don't change this rule - it's our template */
+  .parent {
+    height: 100px;
+    width: 100px;
+  }
+  
+  /* Use the 'padding' property to increase the size of this element */
+  .padding {
+    height: 100px;
+    width: 100px;
+  }
+  
+  /* Use the 'margin' property to increase the size of this element */
+  .margin {
+    height: 100px;
+    width: 100px;
+  }

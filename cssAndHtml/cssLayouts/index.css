@@ -1,0 +1,45 @@
+/*.img{
+    float: right;
+    clear: right;
+}
+*/
+
+/*clear: both is also an option. For example:
+#h2{
+    clear: both
+}
+states that h2 must start below the bottom of preceeding floated elements.
+*/
+
+/*  If you have a background or border on the parent element, this can look pretty bad. You can fix this problem by using the widely used clearfix hack:
+.clearfix {
+	overflow: auto;
+	zoom: 1;
+}
+*/
+
+div {
+    border: 5px solid orange;
+    padding: 5px;
+  }
+  
+  .article {
+    width: 70%;
+  }
+  
+  .sidebar {
+    width: 20%;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .left {
+    float: left;
+  }
+
+  .footer{
+      clear: both;
+  }
+

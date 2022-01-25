@@ -1,0 +1,86 @@
+.clearfix {
+    /* Elements matching this rule should employ the "clearfix hack" we discussed. */
+    overflow: auto;
+    zoom: 1;
+  }
+  
+  .right {
+    /* Elements matching this rule should display on the right side of the page. */
+    float: right;
+    clear: right;
+    margin: 0px 0px 10px 20px;
+  }
+  
+  .left {
+    /* Elements matching this rule should display on the left side of the page. */
+    float: left;
+    clear: left;
+    margin: 0px 25px 10px 0px;
+  }
+  
+  .clear {
+    /* Elements matching this rule should be on their own row, with nothing on either side. */
+    clear: both;
+  }
+
+  .first {
+    position: static;
+  }
+  
+  .second{
+      position: fixed;
+      bottom: 0px;
+      right: -5%;
+  }
+  
+  .third{
+      position: static;
+      position: relative;
+      top: 20px;
+      left: 30px;
+  }
+  
+  .fourth{
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+  }
+  /*.third, .fourth {
+    /*
+      Remember - 'static' is the default value of position.
+      Our bottom row will appear in flow just like our top row,
+      even though we never set the position!
+    */
+  
+  
+  /* Let's make our divs look nicer */
+  div {
+    background-color: #aaaaff;
+    border: 1px solid black;
+    padding: 5% 20%;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    overflow: auto;
+    zoom: 1;
+  }
+  
+  /* No need to change these */
+  body {
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-size: 14px;
+    position: relative;
+  }
+  
+  header {
+    border: 2px solid #AAA;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  footer {
+    border: 2px solid #AAA;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  

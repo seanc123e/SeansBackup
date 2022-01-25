@@ -1,0 +1,25 @@
+body > * {
+    border: 1px solid #AAAAEE;
+    background-color: #BBBBFF;
+  }
+  
+  /* Add you custom CSS rules under this line! */
+ header{
+  position: fixed;
+  padding: 5px;
+  width: 100%;
+  text-align:center;
+ }
+  
+ footer{
+  position: fixed;
+  bottom: 0%;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+ }
+/*div (Tag)
+
+.footer (class)
+
+#footer (ID)*/

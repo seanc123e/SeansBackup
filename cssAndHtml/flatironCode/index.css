@@ -1,0 +1,24 @@
+/* elements are selectors. Can add a class to reference back in css.*/
+.larger-text{
+    font-size: 32px;
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+p {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 40px;
+    letter-spacing: 8px;
+  }
+/*color, background-color, font-size
+font-size: change the size of text in an element. numeric value along with a unit (px, em, rem)
+text-transform: change the capitalization. Values include capitalize, lowercase, uppercase, and initial
+text-decoration is primarily used with the underline and line-through values to create underlined and “strike through” effects
+font-style: italicize text
+font-family expects a list of fonts to “try” from left to right
+line-height defines the space above and below a line of text. numeric value along with a unit of measurement using px, em, rem, etc.
+letter-spacing defines the space between each letter in an element, and accepts the same values as line-height

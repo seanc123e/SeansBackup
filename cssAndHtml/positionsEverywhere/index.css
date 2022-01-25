@@ -1,0 +1,34 @@
+body {
+    position: relative;
+  }
+  
+  .first {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+  }
+  
+  .second {
+    position: absolute;
+    bottom: 0px;
+    left: -10%;
+  }
+  
+  .fourth,
+  .sixth,
+  .eighth {
+    position: relative;
+  }
+  
+  .fourth { left: 5%; }
+  .sixth  { left: 10%; }
+  .eighth { left: 15%; }
+  
+  div {
+    background-color: #aaaaff;
+    border: 1px solid black;
+    padding: 5% 20%;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+  }

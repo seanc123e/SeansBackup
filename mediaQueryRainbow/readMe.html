@@ -1,0 +1,43 @@
+<!--
+    
+CSS  @media <type> and (<features>) {
+	<css statements>
+}
+
+HTML <link rel="stylesheet" media="print and (max-width: 500px)" href="print.css">  
+
+applies to every device
+.container {
+	width: 100%;
+}
+
+applies only to screens with a minimum width of 1024px
+@media screen and (min-width: 1024px) {
+	.container {
+		width: 70%;
+		margin: 0 auto;
+	}
+}
+
+<all> applies enclosed CSS rule statements to all devices (the default).
+<screen> applies rules only to devices with screens.
+<print> applies rules only when printed.
+
+<display-mode>: fullscreen to see if the page is currently in fullscreen mode.
+<orientation>: <portrait|landscape> to see if the page is currently in portrait or landscape orientation. This can be used for mobile devices, but is often less reliable than width and height features.
+<resolution> to see what the the pixel density is of the device to load higher resolution images for “high dpi” devices, such as the “retina” iPhone display.
+<min-width>, <max-width>, <min-height>, <max-height> to see what the current document dimensions are. This is probably the most common type of query used in responsive layout.
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+-->
